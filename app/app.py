@@ -60,7 +60,7 @@ def predict(image):
     # Get the predicted class
     predicted_class_name = class_names[int(predicted_class.argmax())]
 
-    probability = predicted_class[0][predicted_class] * 100
+    probability = [predicted_class] * 100
 
     return predicted_class_name, probability
 
