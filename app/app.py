@@ -79,4 +79,4 @@ if uploaded_file is not None:
         predicted_class_name, probability = predict(image)
         end_time = time.time()
         inference_time = (end_time - start_time) * 1000  # Convert to milliseconds
-        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability:.2f} in {inference_time:.2f} ms")
+        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability[0]:.2f} in {inference_time:.2f} ms")
