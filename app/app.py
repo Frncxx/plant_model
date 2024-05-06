@@ -11,7 +11,7 @@ st.set_page_config(page_title="Plant Disease Detection App",
 
 # Page title
 st.title("Plant Disease Detection")
-st.image("images/logo-01.png")
+st.image("images/logo-02.png")
 st.write("\n\n")
 
 # Load the TFLite model and labels
@@ -78,4 +78,4 @@ if uploaded_file is not None:
         predicted_class_name, probability = predict(image)
         end_time = time.time()
         inference_time = (end_time - start_time) * 1000  # Convert to milliseconds
-        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability:.2f}")
+        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability:.2f} in {inference_time:.2f} ms")
