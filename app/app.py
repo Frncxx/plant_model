@@ -24,7 +24,8 @@ preprocess_input = tf.keras.applications.mobilenet_v3.preprocess_input
 # Function to preprocess the image
 def preprocess_image(image):
     # Resize the image to match the input size of the model
-    image = tf.keras.preprocessing.image.load_img(image, target_size=(224, 224))
+    # image = tf.keras.preprocessing.image.load_img(image, target_size=(224, 224))
+    image = image.resize((224, 224))
 
     # Convert to numpy array
     image = tf.keras.preprocessing.image.img_to_array(image)
