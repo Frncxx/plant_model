@@ -6,11 +6,11 @@ import numpy as np
 
 # Page config
 st.set_page_config(page_title="Plant Disease Detection App",
-                   page_icon="images/logo-01.png")
+                   page_icon="images/logo-02.png")
 
 # Page title
 st.title("Plant Disease Detection")
-st.image("images/logo-02.png")
+st.image("images/logo-01.png")
 st.write("\n\n")
 
 # Load the TFLite model and labels
@@ -60,7 +60,7 @@ def predict(image, class_names):
     # Get the predicted class
     predicted_class_name = class_names[int(predicted_class.argmax())]
 
-    probability = [predicted_class] * 100
+    probability = np.max(predicted_class) * 100
 
     return predicted_class_name, probability
 
@@ -79,5 +79,5 @@ if uploaded_file is not None:
         predicted_class_name, probability = predict(image, class_names)
         end_time = time.time()
         inference_time = (end_time - start_time) * 1000  # Convert to milliseconds
-        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability[0]:.2f}"
+        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability:.2f}"
                    f" in {inference_time:.2f} ms")
