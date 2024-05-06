@@ -4,7 +4,6 @@ from PIL import Image
 import time
 import numpy as np
 
-
 # Page config
 st.set_page_config(page_title="Plant Disease Detection App",
                    page_icon="images/logo-01.png")
@@ -20,6 +19,7 @@ interpreter.allocate_tensors()
 class_names = ['Healthy', 'Powdery', 'Rust']
 
 preprocess_input = tf.keras.applications.mobilenet_v3.preprocess_input
+
 
 # Function to preprocess the image
 def preprocess_image(image):
@@ -41,7 +41,7 @@ def preprocess_image(image):
 
 
 # Function to make predictions
-def predict(image):
+def predict(image, class_names):
     input_tensor_index = interpreter.get_input_details()[0]['index']
     output_tensor_index = interpreter.get_output_details()[0]['index']
 
@@ -76,7 +76,8 @@ if uploaded_file is not None:
     # Make prediction when button is clicked
     if st.button("Classify"):
         start_time = time.time()
-        predicted_class_name, probability = predict(image)
+        predicted_class_name, probability = predict(image, class_names)
         end_time = time.time()
         inference_time = (end_time - start_time) * 1000  # Convert to milliseconds
-        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability[0]:.2f} in {inference_time:.2f} ms")
+        st.success(f"Predicted Class: {predicted_class_name} with Confidence {probability[0]:.2f}"
+                   f" in {inference_time:.2f} ms")
