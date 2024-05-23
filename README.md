@@ -38,6 +38,8 @@ you can access the web app from below.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_red.svg)](https://plant-leaf-disease-detection.streamlit.app/)
 
+- The Web app asks you to upload the image tp be classified, then it shows the uploaded image.
+- After you push Classify button, it shows **the predicted class** of the image with **the confidence** of belonging to that class and **the inference time** the model taken to predict in ms.
 ## Project Demo Video
 **SOON**
 
