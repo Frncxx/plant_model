@@ -14,7 +14,7 @@ st.image("images/logo-01.png")
 st.write("\n\n")
 
 # Load the TFLite model and labels
-interpreter = tf.lite.Interpreter(model_path="model/plant_model.tflite")
+interpreter = tf.lite.Interpreter(model_path="model/plant_modelـlatestv.tflite")
 interpreter.allocate_tensors()
 class_names = ['Healthy', 'Powdery', 'Rust']
 
