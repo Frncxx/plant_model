@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dad7d9f6-54dc-4c6f-a734-395c4a806247" name="Changes" comment="" />
+    <list default="true" id="dad7d9f6-54dc-4c6f-a734-395c4a806247" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo-02.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -21,6 +37,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ahmedashraf/Documents/GitHub/plant_model&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -56,6 +73,18 @@
       <workItem from="1716491156972" duration="4466000" />
       <workItem from="1716497682140" duration="197000" />
       <workItem from="1716503164166" duration="91000" />
+      <workItem from="1716911266569" duration="101000" />
+      <workItem from="1718555869769" duration="628000" />
+      <workItem from="1718558361089" duration="21000" />
+      <workItem from="1718558387815" duration="42000" />
+      <workItem from="1718558436316" duration="610000" />
+      <workItem from="1718819342781" duration="1387000" />
+      <workItem from="1718824130647" duration="19000" />
+      <workItem from="1718993807094" duration="11000" />
+      <workItem from="1718996297343" duration="2066000" />
+      <workItem from="1719004079013" duration="402000" />
+      <workItem from="1719006015588" duration="126000" />
+      <workItem from="1719046896663" duration="2656000" />
     </task>
     <servers />
   </component>
