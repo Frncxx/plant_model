@@ -17,7 +17,7 @@ st.write("\n\n")
 # Load the TFLite model and labels
 interpreter = load_model(model_path="model/plant_modelـlatestv.tflite")
 
-class_names = ['Healthy', 'Powdery', 'Rust']
+class_names = ['Healthy', 'Powdery', 'Rust', 'Slug', 'Spot']
 
 # Streamlit app
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
