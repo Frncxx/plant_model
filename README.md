@@ -3,6 +3,7 @@ A deep learning model for classifying plant diseases using leaves images. The mo
 
 ## Table of contents
 - [Overview](#overview)
+- [Files](#files)
 - [Dataset Collection](#dataset-collection)
 - [Requirements](#requirements)
 - [Training & Data Augmentation](#training--data-augmentation)
@@ -15,6 +16,18 @@ A deep learning model for classifying plant diseases using leaves images. The mo
 
 ## Overview
 Using a pre-trained model, MobileNetV3Large, with Transfer Learning in tensorflow and tensorflow-lite to classify leaves images into the three categories.Then, applied fine-tuning with the model on the dataset.
+
+## Files
+- **app** folder contains two files:
+  - **app.py**: the main file for streamlit application to run the web app
+  - **utils.py**: utilities functions to help in image processing, load model and prediciton
+- **app-images** contains images for the application
+- **model** contains different files:
+  - model with .tflite versions
+  - model with .h5 versions
+- **Notebook** contains the notebook where training and testing processes done
+- **test-images** contains some images to test the model
+- **requirements.txt**: contains all needed dependencies
 
 ## Dataset Collection
 - Our final Dataset consisted and collected from 3 different datasets.
