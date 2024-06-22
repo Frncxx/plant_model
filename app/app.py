@@ -7,11 +7,11 @@ from utils import load_model, predict
 
 # Page config
 st.set_page_config(page_title="Plant Disease Detection App",
-                   page_icon="images/logo-02.png")
+                   page_icon="app-images/logo-02.png")
 
 # Page title
 st.title("Plant Disease Detection")
-st.image("images/logo-01.png")
+st.image("app-images/logo-01.png")
 st.write("\n\n")
 
 # Load the TFLite model and labels

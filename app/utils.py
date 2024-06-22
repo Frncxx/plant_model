@@ -24,6 +24,7 @@ def preprocess_image(image):
 def load_model(model_path):
     interpreter = tf.lite.Interpreter(model_path=model_path)
     interpreter.allocate_tensors()
+
     return interpreter
 
 
