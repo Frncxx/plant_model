@@ -1,6 +1,18 @@
 # Plant Disease Detection
 A deep learning model for classifying plant diseases using leaves images. The model classifies the images into three categories: Healthy, Powdery and Rust.
 
+## Table of contents
+- [Overview](#overview)
+- [Dataset Collection](#dataset-collection)
+- [Requirements](#requirements)
+- [Training & Data Augmentation](#training--data-augmentation)
+- [Evaluation and Callbacks](#evaluation-and-callbacks)
+- [Streamlit Web App](#streamlit-web-app)
+- [Project Demo Video](#project-demo-video)
+- [Usage](#usage)
+- [Results](#results)
+
+
 ## Overview
 Using a pre-trained model, MobileNetV3Large, with Transfer Learning in tensorflow and tensorflow-lite to classify leaves images into the three categories.Then, applied fine-tuning with the model on the dataset.
 
@@ -45,18 +57,18 @@ you can access the web app from below.
 
 ## Usage
 #### 1- Clone the repository:
-```
+```bash
 git clone https://github.com/AhmAshraf1/plant_model.git
 cd plant_model
 ```
 
 #### 2- Install dependencies:
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ### 3- Run Streamlit App:
-```
+```bash
 streamlit run /app/app.py
 ```
 
