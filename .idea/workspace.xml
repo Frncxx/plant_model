@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dad7d9f6-54dc-4c6f-a734-395c4a806247" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook/Plant_Disease_Detection_3.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,8 @@
       <workItem from="1719046896663" duration="4408000" />
       <workItem from="1719323995486" duration="591000" />
       <workItem from="1720907651457" duration="164000" />
+      <workItem from="1720908013061" duration="430000" />
+      <workItem from="1721069668468" duration="610000" />
     </task>
     <servers />
   </component>
