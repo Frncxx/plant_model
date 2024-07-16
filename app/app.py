@@ -15,7 +15,7 @@ st.image("app-images/logo-01.png")
 st.write("\n\n")
 
 # Load the TFLite model and labels
-interpreter = load_model(model_path="model/plant_model_5_class.tflite")
+interpreter = load_model(model_path="model/plant_model_5Classes.tflite")
 
 class_names = ['Healthy', 'Powdery', 'Rust', 'Slug', 'Spot']
 
