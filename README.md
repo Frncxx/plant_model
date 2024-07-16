@@ -86,4 +86,4 @@ streamlit run /app/app.py
 ```
 
 ## Results
-The model achieves an accuracy of 96% on the test set. Training and Validation loss and accuracy plots are provided in the Notebook to visualize the model's performance after transfer learning and fine-tuning. Confusion Matrix and Classification Report are also provided in the notebook to show the classification performance on the test set.
+The model achieves an accuracy of 90.5% on the validation set and 91.5% on the test set. Training and Validation loss and accuracy plots are provided in the Notebook to visualize the model's performance after transfer learning and fine-tuning. Confusion Matrix and Classification Report are also provided in the notebook to show the classification performance on the test set.
